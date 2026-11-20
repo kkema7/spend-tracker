@@ -1,23 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5d2c72"/>
-      <stop offset="1" stop-color="#26092f"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="34%" r="62%">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="512" height="512" fill="url(#bg)"/>
-  <rect width="512" height="512" fill="url(#glow)"/>
-  <g fill="none" stroke-width="64" transform="rotate(-90 256 256)">
-    <circle cx="256" cy="256" r="136" stroke="#ffffff" stroke-opacity="0.07"/>
-    <circle cx="256" cy="256" r="136" stroke="#f2ba4a" stroke-dasharray="293.6 854.5"/>
-    <circle cx="256" cy="256" r="136" stroke="#ff7a95" stroke-dasharray="208.2 854.5" stroke-dashoffset="-307.6"/>
-    <circle cx="256" cy="256" r="136" stroke="#5ae2b5" stroke-dasharray="174 854.5" stroke-dashoffset="-529.8"/>
-    <circle cx="256" cy="256" r="136" stroke="#c197f7" stroke-dasharray="122.7 854.5" stroke-dashoffset="-717.8"/>
+  <rect width="512" height="512" fill="#180f1a"/>
+  <g fill="none" stroke-width="56" transform="rotate(-90 256 256)">
+    <circle cx="256" cy="256" r="148" stroke="#302433"/>
+    <circle cx="256" cy="256" r="148" stroke="#f2ba4a" stroke-dasharray="572 930"/>
+    <circle cx="256" cy="256" r="148" stroke="#f6f3f7" stroke-dasharray="168 930" stroke-dashoffset="-590"/>
   </g>
-  <circle cx="256" cy="256" r="46" fill="#f2ba4a"/>
-  <circle cx="256" cy="256" r="46" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3"/>
 </svg>
